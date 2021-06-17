@@ -854,19 +854,21 @@ body {
 .project-container {
   max-width: 240px;
   border-radius: 5px;
-  background-color: #5cb85c;
+  background-color: #030303;
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 5px 3px #5cb85c27;
 }
 
 .project-img-container {
-  width: 100%;
+  max-width: 100%;
   border-radius: 5px 5px 0px 0px;
 }
 
 .project-img-container img {
-  width: 100%;
+  width: 200px;
+  height: 150px;
+  /* width: 100%; */
   border-radius: 5px 5px 0px 0px;
   margin-bottom: 0px;
 }

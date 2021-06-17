@@ -52,7 +52,7 @@
       <header id="header">
         <div id="helloworld">
           <h1>
-            Hello!
+            Welcome to my portfolio!
           </h1>
         </div>
       </header>
@@ -111,7 +111,7 @@
             <section class="clearfix">
               <div class="g2">
                 <div class="photo">
-                  <img src="./images/my.jpg" alt="Your alt text">
+                  <img src="./images/me.jpg" alt="Your alt text">
                 </div>
                 <div class="info">
                   <h2>
@@ -119,10 +119,10 @@
                     Vanshika Lal
                   </h2>
                   <h4>
-                    Third Year Computer Engineering Student.
+                    Computer Systems Engineering Student 3rd. 
                   </h4>
                   <p>
-                    Type your description here.
+                    Passionate, energetic, inquisitive individual currently a third year student working towards a BE(Honors) in Computer Systems Engineering at the University of Auckland . Aiming to use my knowledge of software and hardware to improve existing subsystems.
                   </p>
                   </p>
                 </div>
@@ -158,7 +158,7 @@
                     <div class="item-data">
                       <h3>
                         <a href="vlal080@aucklanduni.ac.nz">
-                          vlal080@aucklanduni.ac.nz
+                          Click Here!
                         </a>
                       </h3>
                       <p>
@@ -172,12 +172,12 @@
                     <i class="icon-facebook"></i>
                     <div class="item-data">
                       <h3>
-                        <a href="http://fb.me/your-Username">
-                          Add Facebook Link
+                        <a href="https://www.linkedin.com/in/vanshika-lal-130b531b2/">
+                          Click Here!
                         </a>
                       </h3>
                       <p>
-                        Facebook Profile
+                        Linkedin Profile
                       </p>
                     </div>
                   </div>
@@ -187,12 +187,12 @@
                     <i class="icon-twitter"></i>
                     <div class="item-data">
                       <h3>
-                        <a href="http://twitter.com/your-Username">
-                          Add Twiter username
-                        </a>
+                        <!-- <a href="http://twitter.com/your-Username">
+                          Add Github Link
+                        </a> -->
                       </h3>
                       <p>
-                        Twitter Handle
+                        <!-- GitHub -->
                       </p>
                     </div>
                   </div>
@@ -314,24 +314,26 @@
             <section class="clearfix">
               <div class="project-section">
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper1').style.display='block'">
+                    <img src="./images/flappy_game_resized.jpg" alt="project image">
                   </div>
-                  <p class="project-title">Project Title</p>
+                  <p class = "project-title" > Flappy Bird
+                  </p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper2').style.display='block'">
+                    <img src="./images/Handwritten_digit.JPG" alt="project image">
                   </div>
-                  <p class="project-title">Project Title</p>
+                  <p class="project-title">Digit Recognition</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper3').style.display='block'">
+                    <img src="./images/Hnet.com-image.jpg" alt="project image">
                   </div>
-                  <p class="project-title">Project Title</p>
+                  <p class = "project-title" > Movie App
+                  </p>
                 </div>
-                <div class="project-container">
+                <!-- <div class="project-container">
                   <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
@@ -366,23 +368,65 @@
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
-                </div>
+                </div> -->
               </div>
-              <div id="modal-wrapper" class="modal">
+              <div id="modal-wrapper2" class="modal">
 
                 <form class="modal-content animate">
 
                   <div class="imgcontainer">
-                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
-                    <img src="images/floor.jpg" alt="project" class="avatar">
+                    <span onclick="document.getElementById('modal-wrapper2').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/Handwritten_digit1.JPG" alt="project" class="avatar">
                     <h1 class="project_details" style="text-align:center">Project Details</h1>
                   </div>
 
                   <div class="container">
-                    <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
-                    <input type="url" placeholder="Project Link"readonly>
-                    <input type="text" placeholder="Languages used" readonly>
+                    <input type="text" placeholder="Handwritten Digit Recognition" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description : This project focus was on designing and developing an example of AI solution based on a simple design pattern." readonly></textarea>
+                    <input type="url" placeholder="https://drive.google.com/drive/folders/1A_ENxR4htQhdn4_QOq396V7vkut8Vv7A?usp=sharing"readonly>
+                    <input type="text" placeholder="Python and Pytorch" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+              <div id="modal-wrapper3" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper3').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/movie_app1.JPG" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Movie App" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description : Native android app that showcases movies." readonly></textarea>
+                    <input type="url" placeholder="https://drive.google.com/drive/folders/1waPdv1qnO0LcK__4jWQBfW2nhP_j0bMv?usp=sharing"readonly>
+                    <input type="text" placeholder="Android Studio and Java" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+              <div id="modal-wrapper1" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper1').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/flappy_bird.JPG" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Flappy Bird" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description : The game is Flappy Bird   and is controlled and played using a PS/2 mouse, DIP switches, and push-buttons available on the DE0 board. The game is displayed on a VGA screen with a resolution of 640 x 480 pixels. It could be displayed on an ordinary computer monitor via the VGA interface." readonly></textarea>
+                    <input type="url" placeholder="https://drive.google.com/drive/folders/1HYwInPEq1wdylc32VHtB3zT7tI9ujJVg?usp=sharing"readonly>
+                    <input type="text" placeholder="VDHL" readonly>
                     <button class="project_submit" type="submit">Submit</button>
                   </div>
 
@@ -436,7 +480,10 @@
                       About Me
                     </h4>
                     <p>
-                      Write something about you
+                      Computer Systems Engineering student. Resonsible and hardworking, I'm able to handle working under pressure
+                      as well as communicate and collaborate seamlessly in a teamwork enviroment. My passion for programming and hardware
+                      stems from my curious and persistent nature, constantly learning through coursework, programmming courses and Projects
+                      I work on in my spare time. 
                     </p>
                   </div>
                 </div>
